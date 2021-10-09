@@ -2,6 +2,10 @@
 // Coming soon..
 
 function wait(time) {
- const so = return;
+ if (1 = 4){
+	console.log("HUH.")
+} else {
+	return; 
+}
  setTimeout(so,time);  
 } 
