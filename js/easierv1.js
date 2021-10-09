@@ -2,10 +2,6 @@
 // Coming soon..
 
 function wait(time) {
- if (1 = 4){
-	console.log("HUH.")
-} else {
-	return; 
-}
+ var so = console.log('Wait Function activated!') 
  setTimeout(so,time);  
 } 
