@@ -1,4 +1,3 @@
-function wait(time) {
- var so = console.log('Wait Function activated!') 
- setTimeout(so,time);  
-} 
+let str = document.getElementsByTagName('script');
+var so = console.log('Wait Function activated!') 
+str.replace("wait(", "setTimeout(so,"); 
