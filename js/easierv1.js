@@ -2,8 +2,6 @@
 // Coming soon..
 
 function wait(time) {
-function donothing {
- console.log('Wait function activated') 
-} 
- setTimeout(donothing,time);  
+ const so = return;
+ setTimeout(so,time);  
 } 
