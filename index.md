@@ -1,13 +1,31 @@
 ## Easier.JS
 Made for faster work.
 ### Start using
-```js
-// Paste this script in your head tag.
-<script src="https://easier.js.org/js/easierv1.js"></script>
+```html
+<!-- Paste this script in your head tag. (Full version) -->
+<script src="https://easier.js.org/js/1.0.0/easier.full.js"></script>
 ```
 ### Features
-```js
-wait(time) // Wait in miliseconds
+#### Get provider of cards
+```html
+<!DOCTYPE HTML>
+<head>
+<script src="https://easier.js.org/js/1.0.0/easier.full.js"></script>
+</head>
+<body>
+<script>
+if (Easier.card === "VISA") {
+function changeImage(a) {
+        document.getElementById("img").src=a;
+    }
+changeImage("/visa.svg")
+} 
+</script>
+<div class="easier-card">
+<img src="/empty.svg"></img>
+<input id="easier-card-input" placeholder="Input"></input>
+</div>
+</body>
 ```
 ### Support or Contact
 
